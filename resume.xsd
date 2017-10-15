@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+
+
+<element name="Resume" type="resume" />
+
+
+
+<complexType name="resume">
+<all>
+<element name="Applicant" type="applicant" />
+<element name="Education" type="education" />
+<element name="WorkExperience" type="experience" />
+</all>
+</complexType>
+
+
+
+<complexType name="fullname">
+<all>
+<element name="FirstName" type="string" />
+<element name="LastName" type="string" />
+<element name="MiddleName" type="string" />
+</all>
+</complexType>
+
+
+<complexType name="address">
+<all>
+<element name="Unit" type="int" />
+<element name="Street" type="string" />
+<element name="City" type="string" />
+<element name="Province" type="string" />
+<element name="Country" type="string" />
+<element name="PostalCode" type="string" />
+</all>
+</complexType>
+
+
+
+<complexType name="links">
+<all>
+<element name="Github" type="string" />
+<element name="LinkedIn" type="string" />
+<element name="Portfolio" type="string" />
+</all>
+</complexType>
+
+
+
+<complexType name="applicant">
+<all>
+<element name="Name" type="fullname" />
+<element name="Address" type="address" />
+<element name="EmailAddress" type="string" />
+<element name="Phone Number" type="string" />
+</all>
+<element name="Links" type="links" />
+</complexType>
+
+
+
+<complexType name="degrees">
+<sequence>
+<element name="Degree" type="degree" />
+</sequence>
+</complexType>
+
+
+<complexType name="degree">
+<all>
+<element name="Term" type="string" />
+<element name="Program" type="string" />
+<element name="University" type="string" />
+<element name="City" type="string" />
+<element name="Province" type="string" />
+<element name="Country" type="string" />
+</all>
+</complexType>
+
+
+<complexType name="courses">
+<sequence>
+<element name="Course" type="course" />
+</sequence>
+</complexType>
+
+
+<complexType name="course">
+<all>
+<element name="CourseName" type="string" />
+</all>
+</complexType>
+
+
+<complexType name="education">
+<all>
+<element name="Courses" type="courses" />
+<element name="Degrees" type="degrees" />
+</all>
+</complexType>
+
+
+<simpleType name="duty">
+<all>
+<element name="Description" type="string" />
+</all>
+</simpleType>
+
+
+<complexType name="duties">
+<sequence>
+<element name="Duty" type="duty" />
+</sequence>
+</complexType>
+
+
+<complexType name="employment">
+<all>
+<element name="Term" type="string" />
+<element name="Position" type="string" />
+<element name="Company" type="string" />
+<element name="City" type="string" />
+<element name="Province" type="string" />
+<element name="Country" type="string" />
+<element name="Duties" type="duties" />
+</all>
+</complexType>
+
+
+<complexType name="experience">
+<sequence>
+<element name="Employment" type="employment" />
+</sequence>
+</complexType>
+
+
+
+
+<schema>

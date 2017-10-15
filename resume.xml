@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="resume.xsl"?>
+
+
+<Resume>
+
+<Applicant>
+	<Name>
+		<FirstName>Ajiri</FirstName>
+		<LastName>Osauzo</LastName>
+		<MiddleName>Jeffrey</MiddleName>
+	</Name>
+	<Address>
+		<Unit>621</Unit>
+		<Street>Avila Avenue</Street>
+		<City>Winnipeg</City>
+		<Province>Manitoba</Province>
+		<Country>Canada</Country>
+		<PostalCode>R3T 3A5</PostalCode>
+	</Address>
+	<EmailAddress>ajirios@outlook.com</EmailAddress>
+	<PhoneNumber>(204) 951-9207</PhoneNumber>
+	<Links>
+		<Github>github.com/ajirios</Github>
+		<LinkedIn>https://ca.linkedin.com/in/ajirios</LinkedIn>
+		<Portfolio>https://chillonline.net</Portfolio>
+	</Links>
+</Applicant>
+
+<Education>
+
+	<Degrees>
+		<Degree>
+			<Term>2015 - 2017</Term>
+			<Program>BSc., Computer Science</Program>
+			<University>University of Manitoba</University>
+				<City>Winnipeg</City>
+				<Province>Manitoba</Province>
+				<Country>Canada</Country>
+		</Degree>
+		<Degree>
+			<Term>2015 - 2016</Term>
+			<Program>Part-Time Certificate, Web Site Development</Program>
+			<University>Red River College</University>
+				<City>Winnipeg</City>
+				<Province>Manitoba</Province>
+				<Country>Canada</Country>
+		</Degree>
+		<Degree>
+			<Term>2010 - 2015</Term>
+			<Program>BSc., Mechanical/Manufacturing Engineering</Program>
+			<University>University of Manitoba</University>
+				<City>Winnipeg</City>
+				<Province>Manitoba</Province>
+				<Country>Canada</Country>
+		</Degree>
+		
+	</Degrees>
+
+	<Courses>
+
+		<Course><CourseName>Advanced Technologies for Web-Based Systems</CourseName></Course>
+		<Course><CourseName>Computer Networks</CourseName></Course>
+		<Course><CourseName>Databases: Concepts and Usage</CourseName></Course>
+		<Course><CourseName>Professional Practice in Computer Science</CourseName></Course>
+		<Course><CourseName>Object Orientation</CourseName></Course>
+		<Course><CourseName>Software Engineering</CourseName></Course>
+		<Course><CourseName>Human-Computer Interaction 1</CourseName></Course>
+		<Course><CourseName>Analysis of Algorithms and Data Structures</CourseName></Course>
+		<Course><CourseName>Analysis of Algorithms</CourseName></Course>
+		<Course><CourseName>Discrete Mathematics</CourseName></Course>
+		<Course><CourseName>Data Structures and Algorithms</CourseName></Course>
+		<Course><CourseName>Introduction to Computer Systems</CourseName></Course>
+		<Course><CourseName>Computer Organization</CourseName></Course>
+		<Course><CourseName>Operating Systems 1</CourseName></Course>
+		<Course><CourseName>Operating Systems 2</CourseName></Course>
+		<Course><CourseName>Web Site Development: Intro</CourseName></Course>
+		<Course><CourseName>Photoshop 1</CourseName></Course>
+		<Course><CourseName>After Effects</CourseName></Course>
+		<Course><CourseName>Graphic Design</CourseName></Course>
+
+	</Courses>
+
+</Education>
+
+<WorkExperience>
+	
+	<Employment>
+		<Term>2016 - 2017</Term>
+		<Position>Software Engineer</Position>
+		<Company>Chill Technologies Inc.</Company>
+			<City>Winnipeg</City>
+			<Province>Manitoba</Province>
+			<Country>Canada</Country>
+		<Duties>
+			<Duty><Description>Created Chillonline, https://chillonline.net , a social networking site for multimedia sharing.</Description></Duty>
+			<Duty><Description>Founded Chill Technologies Inc., a multimedia technology company in Canada.</Description></Duty>
+			<Duty><Description>Used Java, JSF, JSP, SQL, HTML5, CSS3, JavaScript, jQuery, JSON, XML, AJAX, FFmpeg, Stripe, and AWS.</Description></Duty>
+		</Duties>
+	</Employment>
+	
+	<Employment>
+		<Term>2014 - 2015</Term>
+		<Position>Utilities Worker</Position>
+		<Company>University of Manitoba</Company>
+			<City>Winnipeg</City>
+			<Province>Manitoba</Province>
+			<Country>Canada</Country>
+		<Duties>
+			<Duty><Description>Assisted supervisors in dishwashing, utility, and keeping track of inventory.</Description></Duty>
+		</Duties>
+	</Employment>
+
+
+</WorkExperience>
+
+</Resume>
+
+
